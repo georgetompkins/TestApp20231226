@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var name = ""
     @State private var startTemp = 0.0
     let temperatureTypes = ["Celsius", "Fahrenheit", "Kelvin"]
     @State private var fromType = "Celsius"
